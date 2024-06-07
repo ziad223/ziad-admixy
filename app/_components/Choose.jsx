@@ -16,25 +16,25 @@ const Choose = () => {
        <div className="progress-div flex flex-col gap-7 w-[80%] mx-auto">
         <div className='progress flex items-center justify-between gap-20   '>
         <h2 className='text-xl text-gray-200 font-bold'>Native Ads</h2>
-          <div class=" bg-gray-600 rounded-full dark:bg-gray-700 w-[70%] ">
+          <div class="progress-div  bg-gray-600 rounded-full dark:bg-gray-700 w-[70%] ">
          <div class="bg-blue-600 text-xs font-medium text-blue-100 text-center p-2 leading-none rounded-full w-[95%]" > 95%</div>
         </div>
        </div>
        <div className='progress flex items-center justify-between gap-20   '>
         <h2 className='text-xl text-gray-200 font-bold'>Social Media Ads</h2>
-          <div class=" bg-gray-600 rounded-full dark:bg-gray-700 w-[70%] ">
+          <div class="progress-div  bg-gray-600 rounded-full dark:bg-gray-700 w-[70%] ">
          <div class="bg-blue-600 text-xs font-medium text-blue-100 text-center p-2 leading-none rounded-full w-[90%]" > 90%</div>
         </div>
        </div>
        <div className='progress flex items-center justify-between gap-20   '>
         <h2 className='text-xl text-gray-200 font-bold'>Push Notification Ads</h2>
-          <div class=" bg-gray-600 rounded-full dark:bg-gray-700 w-[70%] ">
+          <div class="progress-div  bg-gray-600 rounded-full dark:bg-gray-700 w-[70%] ">
          <div class="bg-blue-600 text-xs font-medium text-blue-100 text-center p-2 leading-none rounded-full w-[92%]" > 92%</div>
         </div>
        </div>
        <div className='progress flex items-center justify-between gap-20   '>
         <h2 className='text-xl text-gray-200 font-bold'>POP UP Ads</h2>
-          <div class=" bg-gray-600 rounded-full dark:bg-gray-700 w-[70%] ">
+          <div class="progress-div bg-gray-600 rounded-full dark:bg-gray-700 w-[70%] ">
          <div class="bg-blue-600 text-xs font-medium text-blue-100 text-center p-2 leading-none rounded-full w-[97%]" > 97%</div>
         </div>
        </div>
