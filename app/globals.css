@@ -1,0 +1,207 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+body {
+  overflow-x: hidden;
+}
+.container {
+  width: 90%;
+  margin: auto;
+}
+html{
+  scroll-behavior: smooth;
+}
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
+header{
+  height: 70vh;
+  background: linear-gradient(rgba(20 , 20 , 20 , 0.7) , rgba(20, 20, 20, 0.7)) , url(../images/Hero-Image.jpg);
+  background-size: cover;
+  background-position: top;
+}
+
+.Typewriter{
+  font-size: 50px;
+  color: #5c8ff0;
+  font-weight: bold;
+  text-transform: capitalize;
+
+}
+@media screen and (max-width : 1200px) {
+     
+}
+@media screen and (max-width : 1024px){
+  .service-title {
+      font-size: 30px;
+    }
+  
+    .service-p {
+      width: 70%;
+      font-size: 20px;
+    }
+  
+    .service {
+      width: 48%;
+    }
+  
+    .service h2 {
+      font-size: 16px;
+    }
+         .about-content {
+           flex-direction: column;
+           text-align: center;
+         }
+    
+         .about-content p {
+           width: 80%;
+           margin: 20px auto;
+         }
+    
+         .container {
+           width: 95%;
+         }
+    
+         .about-img {
+          display: none;
+         }
+                 .progress {
+                   flex-direction: column;
+                   gap: 20px;
+                 }
+}
+@media screen and (max-width : 992px){
+  .Typewriter {
+      font-size: 40px;
+    }
+  
+    .hero-text {
+      width: 90%;
+      font-size: 25px;
+    }
+
+
+.counter-parent{
+  display: flex;
+  gap: 20px !important;
+}
+.counter-num{
+  font-size: 25px;
+}
+.counter-parent h2{
+  font-size: 18px;
+}
+
+}
+
+@media screen and (max-width : 768px){
+  nav{
+    position: relative;
+  }
+  .nav-menu{
+     background-color: rgb(5, 5, 24);
+     padding: 20px;
+     display: flex;
+     flex-direction: column;
+     gap: 20px;
+     position: absolute;
+     right: -350px;
+     top: 84px;
+     width: 350px;
+     text-align: center;
+     transition: 1s;
+  }
+    .nav-menu.open{
+      right: 0;
+    }
+    .Typewriter {
+      font-size: 30px;
+    }
+    .hero-text{
+      font-size: 22px;  
+    }
+    .counter-parent {
+      flex-direction: column;
+      gap: 40px;
+     }
+     .about-img{
+      width: 100%;
+     }
+     .service-title {
+       font-size: 24px;
+     }
+      
+     .service-p {
+        width: 80%;
+        font-size: 18px;
+      }
+      .service {
+        width: 48%;
+      }
+      
+      .service h2 {
+        font-size: 15px;
+      }
+      .contact .h{
+        flex-direction: column;
+      }
+      .footer-content {
+        flex-direction: column;
+        gap: 40px;
+      }
+      .footer-div{
+        width: 100%;
+        text-align: center;
+      }
+      .contact-div{
+        margin: auto;
+      }
+      footer span{
+        display: block;
+      }
+
+}
+
+@media screen and (max-width : 520px) {
+  .Typewriter {
+    font-size: 20px;
+    color: #5c8ff0;
+    font-weight: bold;
+    text-transform: capitalize;
+
+  }
+  .hero-text {
+    width: 90%;
+    font-size: 18px;
+  }
+  .about-content h2{
+    font-size: 20px;
+    line-height: 1.5;
+  }
+  .service-title{
+    font-size: 18px;
+  }
+  .service-p{
+    width: 90%;
+    font-size: 16px;
+  }
+
+  .services-content{
+    flex-direction: column;
+  }
+    .service{
+      width: 100%;
+    }
+      .service h2{
+        font-size: 15px;
+      }
+      .choose-title{
+        font-size: 20px;
+      }
+}
